@@ -1,0 +1,31 @@
+.row {
+    background-color: black;
+    opacity: 0.9;
+    border-radius: 20px;
+}
+
+.heading {
+    color: rgb(194, 18, 185);
+    animation: bounceIn 1s;
+}
+
+@keyframes bounceIn{
+    0% {
+        opacity: 0.1;
+        transform: scale(0.1);
+    }
+    60% {
+       opacity: 1.2;
+       transform: scale(1.2);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+@keyframes bounceOut {
+     0% {
+         opacity: 0.3;
+         transform: scale(0.7);
+     }
+}
